@@ -149,9 +149,9 @@
   }
   
   .observer {
-    height: 20px;
+    /* height: 20px;
     width: 100%;
-    background: teal;
+    background: teal; */
   }
   </style>
   

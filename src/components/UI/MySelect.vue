@@ -1,5 +1,5 @@
 <template>
-    <select v-model="localModelValue" @change="changeOptions">
+    <select class="filter-select" v-model="localModelValue" @change="changeOptions">
         <option value="" disabled>Choose from list</option>
         <option v-for="option in options" :key="option.value" :value="option.value">
             {{ option.name }}</option>
@@ -34,5 +34,9 @@ export default {
 </script>
 
 <style scoped>
-
+    .filter-select {
+        height: 30px;
+        width:100%;
+        max-width: 200px;
+    }
 </style>

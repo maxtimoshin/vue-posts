@@ -35,7 +35,6 @@ form {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    max-width: 30%;
     padding: 10px;
 }
 </style>

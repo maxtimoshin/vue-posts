@@ -19,5 +19,7 @@ export default {
 <style scoped>
 input {
     height: 30px;
+    width:100%;
+    max-width:200px;
 }
 </style>

@@ -5,7 +5,7 @@ import MySelect from "@/components/UI/MySelect.vue"
 
 export default [
     MyButton,
-    MyInput,
+MyInput,
     MyDialog,
     MySelect,
 ]
